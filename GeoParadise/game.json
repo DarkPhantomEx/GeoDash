@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "D:\\Graduate\\Year 1-2\\IGME.603\\Jam6\\My project\\game.json",
+    "projectFile": "D:\\GeoDash-art-assets\\GeoParadise\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -257,6 +257,69 @@
         "kind": "image",
         "metadata": "",
         "name": "228-2287658_pixel-art-maker-spikes-pixel-art-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pixel-art_0007_Layer-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel-art_0007_Layer-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pixel-art_0006_triangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel-art_0006_triangle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pixel-art_0004_NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel-art_0004_NewFile-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pixel-art_0003_Ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel-art_0003_Ground.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Spike2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spike2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Background-loop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background-loop.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Spike.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spike.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -545,7 +608,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.448
+        "zoomFactor": 0.328
       },
       "objectsGroups": [],
       "variables": [],
@@ -553,13 +616,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 43,
+          "height": 31,
           "layer": "",
           "locked": false,
           "name": "Player",
-          "width": 43,
+          "width": 31,
           "x": 35,
-          "y": 510,
+          "y": 522,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -568,13 +631,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 39,
+          "height": 13,
           "layer": "",
           "locked": false,
           "name": "Platform",
-          "width": 259,
-          "x": 368,
-          "y": 265,
+          "width": 220,
+          "x": 1546,
+          "y": 459,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -583,11 +646,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 39,
+          "height": 13,
           "layer": "",
           "locked": false,
           "name": "Platform",
-          "width": 259,
+          "width": 227,
           "x": 318,
           "y": 185,
           "zOrder": 3,
@@ -613,13 +676,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 39,
+          "height": 13,
           "layer": "",
           "locked": false,
           "name": "Platform",
           "width": 259,
-          "x": 902,
-          "y": 79,
+          "x": 1816,
+          "y": 289,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -628,13 +691,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 39,
+          "height": 13,
           "layer": "",
           "locked": false,
           "name": "Platform",
           "width": 259,
-          "x": 1072,
-          "y": 212,
+          "x": 1695,
+          "y": 372,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -648,8 +711,8 @@
           "locked": false,
           "name": "Enemy",
           "width": 29,
-          "x": 667,
-          "y": 136,
+          "x": 1263,
+          "y": 452,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -673,28 +736,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 161,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 6495,
-          "x": -300,
-          "y": 555,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 19,
           "layer": "",
           "locked": false,
           "name": "Attackrange",
           "width": 52,
-          "x": 614,
-          "y": 153,
+          "x": 1213,
+          "y": 472,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -708,8 +756,8 @@
           "locked": false,
           "name": "Attackrange",
           "width": 52,
-          "x": 367,
-          "y": 145,
+          "x": 1048,
+          "y": 475,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -733,28 +781,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 951,
-          "layer": "",
-          "locked": false,
-          "name": "Skybox_2",
-          "width": 6545,
-          "x": -684,
-          "y": -395,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 40,
           "layer": "",
           "locked": false,
           "name": "Enemy",
           "width": 31,
-          "x": 421,
-          "y": 124,
+          "x": 1097,
+          "y": 451,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -778,21 +811,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 43,
-          "layer": "",
-          "locked": false,
-          "name": "Spike2",
-          "width": 35,
-          "x": 1158,
-          "y": 511,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 32,
           "layer": "",
           "locked": false,
@@ -808,13 +826,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 43,
+          "height": 31,
           "layer": "",
           "locked": false,
           "name": "Spike2",
-          "width": 35,
+          "width": 40,
           "x": 1006,
-          "y": 512,
+          "y": 524,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -823,13 +841,58 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 43,
+          "height": 956,
+          "layer": "",
+          "locked": false,
+          "name": "Skybox_2",
+          "width": 7143,
+          "x": -1276,
+          "y": -399,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "width": 6495,
+          "x": -300,
+          "y": 555,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
           "layer": "",
           "locked": false,
           "name": "Spike2",
-          "width": 35,
+          "width": 40,
           "x": 1306,
-          "y": 512,
+          "y": 523,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "Spike2",
+          "width": 40,
+          "x": 1151.38,
+          "y": 522.641,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -845,10 +908,10 @@
           "variables": [],
           "behaviors": [
             {
-              "gravity": 3800,
-              "jumpSpeed": 1400,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 3800,
+              "jumpSpeed": 1400,
               "ignoreDefaultControls": true,
               "acceleration": 1500,
               "canGrabPlatforms": false,
@@ -897,7 +960,7 @@
           "height": 32,
           "name": "Platform",
           "tags": "",
-          "texture": "endless_runner_resources\\Images\\Platform.png",
+          "texture": "Pixel-art_0004_NewFile-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -929,7 +992,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "endless_runner_resources\\Images\\background.png",
+                      "image": "Pixel-art_0007_Layer-12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1090,9 +1153,9 @@
           "height": 320,
           "name": "Skybox_2",
           "tags": "",
-          "texture": "endless_runner_resources\\Images\\background.png",
+          "texture": "Background-loop.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 320,
+          "width": 600,
           "variables": [],
           "behaviors": []
         },
@@ -1105,7 +1168,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "228-2287658_pixel-art-maker-spikes-pixel-art",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1114,7 +1177,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "228-2287658_pixel-art-maker-spikes-pixel-art-1.png",
+                      "image": "Spike.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1144,7 +1207,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "228-2287658_pixel-art-maker-spikes-pixel-art-1-1",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1153,7 +1216,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "228-2287658_pixel-art-maker-spikes-pixel-art-1-1.png",
+                      "image": "Pixel-art_0006_triangle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1171,6 +1234,24 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Ground",
+          "tags": "",
+          "texture": "Pixel-art_0003_Ground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
             }
           ]
         }
