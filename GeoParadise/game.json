@@ -340,6 +340,69 @@
         "name": "NewFile-1-0-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HERO1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HERO1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HERO2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HERO2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HERO3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HERO3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HERO4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HERO4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HERO5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HERO5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HERO6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HERO6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HERO7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HERO7.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3129,7 +3192,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.52
+        "zoomFactor": 0.04
       },
       "objectsGroups": [],
       "variables": [],
@@ -3137,13 +3200,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 31,
+          "height": 43,
           "layer": "",
           "locked": false,
           "name": "Player",
-          "width": 31,
-          "x": -1161,
-          "y": 522,
+          "width": 44,
+          "x": -1158,
+          "y": 514,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3292,7 +3355,7 @@
           "locked": false,
           "name": "Ground",
           "width": 34204,
-          "x": -1275,
+          "x": -1276,
           "y": 555,
           "zOrder": 13,
           "numberProperties": [],
@@ -4222,21 +4285,6 @@
           "locked": false,
           "name": "Spike2",
           "width": 47,
-          "x": 6767,
-          "y": 516,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 37,
-          "layer": "",
-          "locked": false,
-          "name": "Spike2",
-          "width": 47,
           "x": 6954,
           "y": 336,
           "zOrder": 14,
@@ -4442,13 +4490,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 53,
+          "height": 37,
           "layer": "",
           "locked": false,
           "name": "Spike",
-          "width": 111,
-          "x": 9050,
-          "y": 503,
+          "width": 88,
+          "x": 9055,
+          "y": 517,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -5503,21 +5551,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 53,
-          "layer": "",
-          "locked": false,
-          "name": "Spike",
-          "width": 111,
-          "x": 9050,
-          "y": 503,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -5551,12 +5584,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "0x0.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "HERO1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5569,7 +5602,242 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 250
+                          },
+                          {
+                            "x": 46,
+                            "y": 250
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HERO2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 250
+                          },
+                          {
+                            "x": 46,
+                            "y": 250
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HERO3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 250
+                          },
+                          {
+                            "x": 46,
+                            "y": 250
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HERO4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 250
+                          },
+                          {
+                            "x": 46,
+                            "y": 250
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HERO5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 250
+                          },
+                          {
+                            "x": 46,
+                            "y": 250
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HERO6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 250
+                          },
+                          {
+                            "x": 46,
+                            "y": 250
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HERO7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 9
+                          },
+                          {
+                            "x": 220,
+                            "y": 250
+                          },
+                          {
+                            "x": 46,
+                            "y": 250
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
