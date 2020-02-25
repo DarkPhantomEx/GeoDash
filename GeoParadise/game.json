@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "D:\\Graduate\\Year 1-2\\IGME.603\\GeoDash-master\\GeoDash-master\\GeoDash-master\\GeoParadise\\game.json",
+    "projectFile": "D:\\GeoDash\\GeoDash\\GeoParadise\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -462,7 +462,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.97
+        "zoomFactor": 1.09
       },
       "objectsGroups": [],
       "variables": [],
@@ -475,8 +475,8 @@
           "locked": false,
           "name": "MenuText",
           "width": 0,
-          "x": 275,
-          "y": 24,
+          "x": 304,
+          "y": 81,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -509,7 +509,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Dash Paradise",
+          "string": "Cyber Dash",
           "font": "",
           "characterSize": 40,
           "color": {
@@ -711,7 +711,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.274
+        "zoomFactor": 0.262
       },
       "objectsGroups": [],
       "variables": [],
